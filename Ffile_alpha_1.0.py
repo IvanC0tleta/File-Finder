@@ -7,6 +7,8 @@ import os
 import fnmatch
 import string
 
+#Я обещаю дописать комментарии....
+
 #Класс, осуществляющий взаимодействие с интерфейсом и запускающий потоки
 class Ffile(QtWidgets.QMainWindow, searcher_ui.Ui_mainWindow): #наследуется от Qt библиотеки для виджетов и файла с разметкой интерфейса
     def __init__(self):
